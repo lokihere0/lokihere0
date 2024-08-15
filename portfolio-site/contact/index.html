@@ -104,25 +104,29 @@
        <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
     <input type="hidden" name="access_key" value="f3434f06-a82d-4a3d-943b-e613aeb94c86">
 
-    <div class="col-md-6">
-        <input type="text" name="name" class="form-control" placeholder="Your Name" required>
-    </div>
+   <div class="contact-container" style="background-color: #1c1c1c; padding: 30px; border-radius: 8px; max-width: 600px; margin: auto; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);">
+    <div class="row gy-4">
+        <div class="col-md-12">
+            <div style="display: flex; gap: 20px;">
+                <input type="text" name="name" class="form-control" placeholder="Your Name" required=""
+                       style="background-color: #333333; border: 1px solid #555555; color: #ffffff; padding: 10px; border-radius: 20px; width: 49%;">
+                <input type="email" name="email" class="form-control" placeholder="Your Email" required=""
+                       style="background-color: #333333; border: 1px solid #555555; color: #ffffff; padding: 10px; border-radius: 20px; width: 49%;">
+            </div>
+        </div>
 
-    <div class="col-md-6">
-        <input type="email" name="email" class="form-control" placeholder="Your Email" required>
-    </div>
+        <div class="col-md-12" style="margin-top: 20px;">
+            <textarea name="message" class="form-control" rows="6" placeholder="Message" required=""
+                      style="background-color: #333333; border: 1px solid #555555; color: #ffffff; padding: 10px; border-radius: 20px; width: 100%;"></textarea>
+        </div>
 
-    <div class="col-md-12">
-        <textarea name="message" class="form-control" rows="6" placeholder="Message" required></textarea>
+        <div style="display: flex; justify-content: center; margin-top: 20px;">
+            <button type="submit" style="padding: 12px 30px; background-color: #28a745; border: none; border-radius: 20px; color: #ffffff; font-size: 16px; cursor: pointer;">
+                Send Message
+            </button>
+        </div>
     </div>
-
-    <div class="col-md-12 text-center">
-        <div class="loading" style="display: none;">Loading...</div>
-        <div class="error-message" style="display: none;"></div>
-        <div class="sent-message" style="display: none;">Your message has been sent. Thank you!</div>
-
-        <button type="submit">Send Message</button>
-    </div>
+</div>
 </form>
 
 
