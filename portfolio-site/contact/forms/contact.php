@@ -2,6 +2,11 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
+// Enable error reporting
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
 // Include PHPMailer files
 require 'PHPMailer/src/Exception.php';
 require 'PHPMailer/src/PHPMailer.php';
