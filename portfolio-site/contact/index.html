@@ -164,7 +164,6 @@
           ];
           document.getElementById('quote').innerHTML = quotes[Math.floor(Math.random() * quotes.length)];
         </script>
-        <p>&copy; <script>document.write(new Date().getFullYear())</script> Lokesh. All rights reserved.</p>
       </div>
     </div>
   </footer>
@@ -180,7 +179,7 @@
 
   <script>
     function handleSubmit(event) {
-      event.preventDefault(); // Prevent default form submission
+      event.preventDefault();
 
       const form = document.getElementById('contact-form');
       const formData = new FormData(form);
