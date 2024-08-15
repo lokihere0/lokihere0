@@ -15,14 +15,14 @@ try {
     $mail->isSMTP();
     $mail->Host       = 'smtp.gmail.com'; // Replace with your SMTP server
     $mail->SMTPAuth   = true;
-    $mail->Username   = 'solitary-xy@gmail.com'; // Replace with your SMTP username
+    $mail->Username   = 'solitaryxy01@gmail.com'; // Replace with your SMTP username
     $mail->Password   = 'zjmwzuraxitiytmm'; // Replace with your SMTP password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
     $mail->Port       = 587;
 
     // Recipients
-    $mail->setFrom('your-email@example.com', 'Your Name'); // Replace with your email and name
-    $mail->addAddress('your-email@example.com', 'Your Name'); // Replace with your email
+    $mail->setFrom('solitaryxy01@gmail.com', 'Loki'); // Replace with your email and name
+    $mail->addAddress('lokihere@protonmail.com', 'Loki'); // Replace with your email
 
     // Content
     $mail->isHTML(true);
