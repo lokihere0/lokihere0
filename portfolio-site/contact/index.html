@@ -105,29 +105,35 @@
     <input type="hidden" name="access_key" value="f3434f06-a82d-4a3d-943b-e613aeb94c86">
 
    <div class="contact-container" style="background-color: #1c1c1c; padding: 40px; border-radius: 8px; max-width: 1000px; margin: auto; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);">
-            <h2 style="color: #dff0e3; text-align: center; margin-bottom: 30px;">Feel Free to Reach Out</h2>
-            <div class="row gy-4">
-                <div class="col-md-12">
-                    <div style="display: flex; gap: 20px;">
-                        <input type="text" name="name" class="form-control" placeholder="Your Name" required=""
-                               style="background-color: #333333; border: 1px solid #555555; padding: 10px; border-radius: 20px; width: 49%; color: #34C759;">
-                        <input type="email" name="email" class="form-control"  placeholder="Your Email" required=""
-                               style="background-color: #333333; border: 1px solid #555555; padding: 10px; border-radius: 20px; width: 49%; color: #34C759;">
-                    </div>
-                </div>
-        
-                <div class="col-md-12" style="margin-top: 20px;">
-                    <textarea name="message" class="form-control" rows="6" placeholder="Message" required=""
-                              style="background-color: #333333; border: 1px solid #555555; padding: 10px; border-radius: 20px; width: 100%; color: #34C759;"></textarea>
-                </div>
-        
-                <div style="display: flex; justify-content: center; margin-top: 20px;">
-                    <button type="submit" style="padding: 12px 30px; background-color: #28a745; border: none; border-radius: 20px; color: #ffffff; font-size: 16px; cursor: pointer;">
-                        Send Message
-                    </button>
-                </div>
+    <h2 style="color: #34C759; text-align: center; margin-bottom: 30px; font-style: italic;">Feel Free to Reach Out</h2>
+    <div class="row gy-4">
+        <div class="col-md-12">
+            <div style="display: flex; gap: 20px;">
+                <input type="text" name="name" class="form-control" placeholder="Your Name" required=""
+                       style="background-color: #333333; border: 1px solid #555555; padding: 10px; border-radius: 20px; width: 49%; color: #34C759; font-weight: bold;">
+                <input type="email" name="email" class="form-control" placeholder="Your Email" required=""
+                       style="background-color: #333333; border: 1px solid #555555; padding: 10px; border-radius: 20px; width: 49%; color: #34C759; font-weight: bold;">
             </div>
         </div>
+
+        <div class="col-md-12" style="margin-top: 20px;">
+            <textarea name="message" class="form-control" rows="6" placeholder="Message" required=""
+                      style="background-color: #333333; border: 1px solid #555555; padding: 10px; border-radius: 20px; width: 100%; color: #34C759; font-weight: bold;"></textarea>
+        </div>
+
+        <div style="display: flex; justify-content: center; margin-top: 20px;">
+            <button type="submit" style="padding: 12px 30px; background-color: #28a745; border: none; border-radius: 20px; color: #ffffff; font-size: 16px; cursor: pointer;">
+                Send Message
+            </button>
+        </div>
+    </div>
+</div>
+<style>
+    ::placeholder {
+        color: white;
+    }
+</style>
+
 </form>
 
 
