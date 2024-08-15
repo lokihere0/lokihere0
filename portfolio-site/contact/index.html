@@ -174,7 +174,7 @@
 
   <script>
     document.getElementById('contact-form').addEventListener('submit', function(event) {
-      event.preventDefault(); // Prevent the default form submission
+      event.preventDefault();
 
       const formData = new FormData(this);
 
@@ -187,7 +187,6 @@
       })
       .then(response => response.json())
       .then(data => {
-        // Handle the response data here
         if (data.success) {
           alert('Form submitted successfully!');
         } else {
@@ -195,7 +194,6 @@
         }
       })
       .catch(error => {
-        // Handle errors here
         console.error('Error:', error);
         alert('There was an error submitting the form.');
       });
