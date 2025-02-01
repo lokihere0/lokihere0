@@ -30,6 +30,15 @@
 
 🔹 **Learning**: Deep learning, blockchain security, adversarial AI, while also refining expertise in high-performance distributed systems.
 
+## 🎯 My Goals
+
+🚀 **Develop AI-driven automation and security solutions to combat evolving threats.**
+
+🔐 **Enhance cloud security & blockchain technology integration.**
+
+📖 **Contribute to open-source software development and cybersecurity projects.**
+
+🌎 **Innovate, push boundaries, and make a real impact as both a security researcher and a software developer.**
 
 ---
 
@@ -107,17 +116,7 @@
 </p>
 
 ---
-
-## 🎯 My Goals
-
-🚀 **Develop AI-driven automation and security solutions to combat evolving threats.**
-
-🔐 **Enhance cloud security & blockchain technology integration.**
-
-📖 **Contribute to open-source software development and cybersecurity projects.**
-
-🌎 **Innovate, push boundaries, and make a real impact as both a security researcher and a software developer.**
-
+![Loki's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=lokihere0&theme=chartreuse-dark&date_format=j%20M%5B%20Y%5D&type=png)
 ---
 
 ## 🛡️ Let's Build the Future of Tech Together
